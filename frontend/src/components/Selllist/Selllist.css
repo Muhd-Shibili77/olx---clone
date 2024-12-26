@@ -1,0 +1,110 @@
+.list {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: flex-start;
+    align-items: center;
+    font-style: normal;
+    margin-bottom: 180px;
+  }
+
+.heading{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+      
+    
+}
+.heading h2 {
+    margin-top: 100px;              
+    text-align: center;      
+  }
+
+  /* Container styling */
+.container {
+    width: 100%;
+    max-width: 850px; 
+    height: auto; /* Makes the container half the viewport height */
+    border: 2px solid #bbbbbb; /* Adds a border */
+    box-sizing: border-box; /* Ensures padding doesn't affect container width/height */
+    margin-top: 0px; /* Adjusts space between the heading and container */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    display: flex; /* Creates a flexbox layout */
+  }
+  
+ 
+  .left-container {
+    flex: 1; 
+    border-right: 2px solid #bbbbbb;
+    padding-top: 20px;
+    box-sizing: border-box;
+  }
+  
+
+  .right-container {
+    flex: 1;
+    
+    padding: 0px; 
+    box-sizing: border-box;
+  }
+
+  .left-container h3{
+    
+    margin-left: 50px;
+  }
+  .subheading{
+    border-bottom: 2px solid #bbbbbb;
+    margin-bottom: 20px; 
+     padding-bottom: 20px;
+  }
+
+
+  .onelist {
+    border-bottom: 2px solid #bbbbbb;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effect */
+    box-sizing: border-box; /* Ensures borders and padding don't affect layout */
+    display: flex; /* Use flexbox to align children in a row */
+    align-items: center; /* Vertically aligns items in the center */
+    padding: 10px; /* Optional: Add some padding */
+}
+
+.onelist p {
+    margin-left: 10px; /* Space between the image and text */
+    margin-bottom: 0; /* Remove default margin below the text */
+    font-size: larger;
+    color: rgba(0, 47, 52, 0.64);
+    flex: 1; /* Makes the text take up remaining space */
+    
+}
+
+.onelist img {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0; /* Prevents the image from shrinking */
+}
+
+ .secondList{
+  border-bottom: 2px solid #bbbbbb;
+  
+  margin-top: 79.9px;
+  height: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effect */
+  box-sizing: border-box; /* Ensures borders and padding don't affect layout */
+  display: flex; /* Use flexbox to align children in a row */
+  align-items: center; /* Vertically aligns items in the center */
+  padding: 10px; /* Optional: Add some padding */
+ }
+
+ .secondList p {
+  margin-left: 10px; 
+  margin-bottom: 0; 
+  font-size: larger;
+  color: rgba(0, 47, 52, 0.64);
+  flex: 1;
+  
+}
+.secondList:hover{
+  background-color: grey;
+}
+  

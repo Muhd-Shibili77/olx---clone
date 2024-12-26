@@ -1,0 +1,129 @@
+.Footer {
+    width: 100%;
+    background-color: #002f34;
+}
+
+.footerOne {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ebeeef;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.f_para {
+    flex: 1;
+    max-width: 200px;
+}
+.f_para ul li:hover {
+    color: black;
+}
+
+.f_para h2 {
+    font-size: 1rem;
+    color: #002f34;
+    margin-bottom: 10px;
+}
+
+.f_para ul {
+    list-style: none;
+    padding: 0;
+}
+
+.f_para li {
+    color: #002f34a3;
+    font-size: 0.85rem;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.footicon {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.footicon img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.footapp {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.footapp img {
+    height: 40px;
+    width: 120px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.footerTwo {
+    background-color: #002f34;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    height: 25vh;
+}
+
+.footerLogos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 30px;
+}
+
+.mainLogo {
+    height: 100px;
+    object-fit: contain;
+    margin-left: 150px;
+}
+
+.divider {
+    width: 1px;
+    height: 80px;
+    background-color: #cccccc; 
+    margin-left: -40px;
+}
+
+.partnerLogos {
+    display: flex;
+    gap: 15px; /* Space between partner logos */
+}
+
+.partnerLogos img {
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+    margin-right: 120px;
+}
+
+
+.footerCredits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 40px; */
+    color: #cccccc;
+    font-size: 0.9rem;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+
+.helpText {
+    text-align: left;
+}
+
+.rightsText {
+    text-align: right;
+}
+

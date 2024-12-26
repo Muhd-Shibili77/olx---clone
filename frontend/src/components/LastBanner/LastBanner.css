@@ -1,0 +1,11 @@
+.Lbanner{
+    width: 100%;
+    
+}
+.Lbanner img{
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    margin-top: 200px;
+    margin-bottom: 300px;
+}
